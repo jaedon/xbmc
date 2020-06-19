@@ -98,6 +98,7 @@ protected:
   double m_DAR = 1.0;
   CDVDStreamInfo m_hints;
   CDVDCodecOptions m_options;
+  bool m_decoderV4l2m2m = false;
 
   struct CDropControl
   {
